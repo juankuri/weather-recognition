@@ -63,3 +63,5 @@ EffB0_model_history = EffB0_model.fit(train_image_ds,
                     epochs=epochs,               
                     validation_data=val_image_ds,
                     callbacks=[early_stop])
+
+EffB0_model.save("weather_model/1")
