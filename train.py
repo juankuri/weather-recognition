@@ -16,7 +16,7 @@ batch_size = 64
 epochs = 100
 no_classes = 11
 
-train_path = os.path.join(path, 'train')
+train_path = os.path.join(path, 'balanced_train')
 test_path = os.path.join(path, 'test')
 
 train_image_gen = ImageDataGenerator(rescale=1/255,            # rescale the image by normalzing it
